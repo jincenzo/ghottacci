@@ -1,0 +1,34 @@
+node_modules
+dist
+
+# Local environment and runtime secrets
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+.dev.vars
+.npmrc
+.netrc
+
+# Private keys, certificates containing private material, and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_ed25519
+credentials.json
+credentials.*.json
+*-credentials.json
+service-account*.json
+secrets.json
+secrets.*.json
+
+# Local tooling output
+*.log
+.DS_Store
+coverage
+playwright-report
+test-results
