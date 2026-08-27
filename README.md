@@ -1,9 +1,9 @@
-# Gotthard traffic
+# Ghottacci
 
-A tiny, mobile-first status page for queues at the Gotthard road tunnel. The React frontend only talks to the local Express proxy. A token configured in `.env` never reaches the browser; a token entered in the app stays in that browser tab.
+A tiny, mobile-first status page for queues at the Gotthard road tunnel. The name is a Roman-flavoured Gotthard / “mortacci tua” mash-up. The React frontend only talks to the local Express proxy. A token configured in `.env` never reaches the browser; a token entered in the app stays in that browser tab.
 
 <p align="center">
-  <img src="docs/gotthard-traffic-mobile.png" width="390" alt="Gotthard traffic mobile interface showing live northbound and southbound tunnel conditions" />
+  <img src="docs/gotthard-traffic-mobile.png" width="390" alt="Ghottacci mobile interface showing live northbound and southbound Gotthard tunnel conditions" />
 </p>
 
 ## Local development

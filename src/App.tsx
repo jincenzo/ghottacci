@@ -337,8 +337,8 @@ export default function App() {
         <div className="header-identity">
           <div className="brand-mark" aria-hidden="true"><span /></div>
           <div>
-            <p className="site-kicker">A2 · Road tunnel</p>
-            <h1>Gotthard traffic</h1>
+            <p className="site-kicker">Gotthard · A2 road tunnel</p>
+            <h1>Ghottacci</h1>
           </div>
         </div>
         <div className="header-update">

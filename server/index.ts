@@ -116,5 +116,5 @@ app.use(express.static(distDir));
 app.get('*path', (_request, response) => response.sendFile(path.join(distDir, 'index.html')));
 
 app.listen(port, host, () => {
-  console.log(`Gotthard traffic server listening on http://${host}:${port}`);
+  console.log(`Ghottacci server listening on http://${host}:${port}`);
 });
